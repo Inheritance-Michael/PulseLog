@@ -24,4 +24,12 @@ dependencyResolutionManagement {
 
 rootProject.name = "pulselog"
 include(":app")
+include(":core:model")
+include(":core:database")
+include(":core:ai")
+include(":core:ui")
+include(":feature:dashboard")
+include(":feature:journal")
+include(":feature:insights")
+include(":widget")
  
